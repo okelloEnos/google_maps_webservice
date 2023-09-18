@@ -7,8 +7,6 @@ import 'package:google_maps_webservice/directions.dart';
 
 final directions =
     GoogleMapsDirections(apiKey: Platform.environment['API_KEY']);
-// final directions =
-// GoogleMapsDirections(apiKey: "AIzaSyC6twBnrvql3TYQCUaOHJFw5YoXFYSL_-U");
 
 Future<void> main() async {
   var res =
